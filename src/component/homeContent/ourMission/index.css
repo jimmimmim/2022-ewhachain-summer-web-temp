@@ -1,0 +1,30 @@
+.ourMission {
+    height: 1080px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+}
+
+.p1 {
+    margin-top: 22px !important;
+    font-size: 64px;
+}
+
+.p3 {
+    font-size: 20px;
+    white-space: pre-wrap;
+    line-height: 200%;
+    font-weight: 400;
+}
+
+.p2 {
+    font-size: 40px;
+    color: rgba(0, 220, 180, 1);
+}
+
+.square-ourMission {
+    margin: auto;
+    width: 22px;
+    padding-bottom: 22px;
+    background-color: rgb(255, 255, 255);
+}
