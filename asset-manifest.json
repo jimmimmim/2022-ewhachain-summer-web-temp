@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/2022-ewhachain-summer-web-temp/static/css/main.cda5f54e.css",
+    "main.js": "/2022-ewhachain-summer-web-temp/static/js/main.325afc7c.js",
+    "static/js/787.aa11ff46.chunk.js": "/2022-ewhachain-summer-web-temp/static/js/787.aa11ff46.chunk.js",
+    "index.html": "/2022-ewhachain-summer-web-temp/index.html",
+    "main.cda5f54e.css.map": "/2022-ewhachain-summer-web-temp/static/css/main.cda5f54e.css.map",
+    "main.325afc7c.js.map": "/2022-ewhachain-summer-web-temp/static/js/main.325afc7c.js.map",
+    "787.aa11ff46.chunk.js.map": "/2022-ewhachain-summer-web-temp/static/js/787.aa11ff46.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cda5f54e.css",
+    "static/js/main.325afc7c.js"
+  ]
+}
