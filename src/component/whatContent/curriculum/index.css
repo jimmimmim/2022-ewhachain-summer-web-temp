@@ -3,8 +3,14 @@ html {
     color: white;
 }
 
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .circle {
-    width: 566px;
+    min-width: 566px;
     height: 566px;
     position: relative;
     float: left;

@@ -4,12 +4,11 @@ import './index.css';
 function Curriculum() {
     return (
         <div className='curriculum'>
-            <div className="square-slogan"></div>
-            <p className='slogan-1'>Curriculum</p>
-
             <div>
                 <h1>Curriculum</h1>
             </div>
+            <div className='wrapper'>
+
             <div className='circle'>
                 <div className='session'>
                     교육 세션
@@ -43,6 +42,7 @@ function Curriculum() {
                 </div>
             </div>
       </div>
+            </div>
     );
   }
   

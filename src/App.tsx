@@ -10,6 +10,7 @@ import Activities from 'component/whatContent/activities';
 import Curriculum from 'component/whatContent/curriculum';
 import Footer from './component/footer';
 import { BrowserRouter, Route } from 'react-router-dom';
+import Slogan_tab from 'component/homeContent/slogan_tab';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <OurExcecutives/>
         <Curriculum/>
         <Activities/>
+        <Slogan_tab/>
         <Footer/>
       </div>
 
