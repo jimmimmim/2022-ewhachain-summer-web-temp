@@ -11,15 +11,15 @@ function Nav() {
       <div className="nav-btn">
         <div className="block">
           <button id="btn1">ABOUT US</button>
-          <div className="dot"></div>
+          <div id="dot1"></div>
         </div>
         <div className="block">
           <button id="btn2">RECRUITING</button>
-          <div className="dot"></div>
+          <div id="dot2"></div>
         </div>
         <div className="block">
           <button id="btn3">MEMBERS</button>
-          <div className="dot"></div>
+          <div id="dot3"></div>
         </div>
       </div>
     </div>
