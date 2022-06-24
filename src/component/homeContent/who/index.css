@@ -10,11 +10,19 @@
     font-size: 64px;
 }
 
+.who-p1:hover {
+    color: #00dcb4;
+}
+
 .who-p2 {
     text-align: right;
     margin-top: 0;
     color: white;
     font-size: 64px;
+}
+
+.who-p2:hover {
+    color: #00dcb4;
 }
 
 .who-div1 {
