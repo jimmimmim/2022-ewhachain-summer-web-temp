@@ -3,9 +3,10 @@ import './index.css';
 
 function Activities() {
     return (
-      <div className='activities'>
-        <p>activities</p>
-      </div>
+        <div className='activities'>
+        <div className="square-slogan"></div>
+        <p className='slogan-1'>Activities</p>
+  </div>
     );
   }
   
