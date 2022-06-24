@@ -1,5 +1,7 @@
 import React from 'react';
 import './index.css';
+import {Link} from "react-router-dom"
+import About from "../../pages/About"
 
 function Who() {
     return (
@@ -12,9 +14,7 @@ function Who() {
         </div>
         <div className='who-div2'>
           <div className='square-who'></div>
-          <a href="../whatContent/About.tsx">
           <p className='who-p2'>what we do</p>
-          </a>
         </div>
       </div>
     );
