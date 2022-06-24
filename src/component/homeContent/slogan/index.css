@@ -11,7 +11,8 @@
 }
 
 .toFlex {
-    display: flex;
+  display: flex;
+  justify-content: center;
 }
 
 .square-slogan {
