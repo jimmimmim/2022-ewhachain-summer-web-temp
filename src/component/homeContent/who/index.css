@@ -18,21 +18,23 @@
 }
 
 .who-div1 {
+    width: max-content;
     position: relative;
-    left: 134px;
+    left: 267px;
     margin-bottom: 390px;
 }
 
 .who-div2 {
-    position: relative;
-    right: 134px;
+    width: max-content;
+    position: absolute;
+    right: 267px;
     margin-bottom: 390px;
 }
 
 .square-who {
     float: right;
     margin-left: 300px;
-    width: 11px;
-    padding-bottom: 11px;
+    width: 22px;
+    padding-bottom: 22px;
     background-color: rgb(255, 255, 255);
 }
