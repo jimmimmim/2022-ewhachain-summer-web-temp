@@ -10,7 +10,8 @@
   font-size: 64px;
 }
 
-.who-p1:hover {
+.who-p1:hover,
+.who-p2:hover {
   color: #00dcb4;
 }
 
@@ -19,10 +20,6 @@
   margin-top: 0;
   color: white;
   font-size: 64px;
-}
-
-.who-p2:hover {
-  color: #00dcb4;
 }
 
 .who-div1 {
@@ -45,4 +42,12 @@
   width: 22px;
   padding-bottom: 22px;
   background-color: rgb(255, 255, 255);
+}
+
+.who-div1:hover .square-who {
+  rotate: 45deg;
+}
+
+.who-div2:hover .square-who {
+  rotate: 45deg;
 }
