@@ -44,10 +44,8 @@
   background-color: rgb(255, 255, 255);
 }
 
-.who-div1:hover .square-who {
-  rotate: 45deg;
-}
-
+.who-div1:hover .square-who,
 .who-div2:hover .square-who {
   rotate: 45deg;
+  background-color: #00dcb4;
 }
