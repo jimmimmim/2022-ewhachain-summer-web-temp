@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "NanumSquare_acR";
+  font-weight: 500;
+  src: url("../../../../public/fonts/NanumSquare_acR.ttf");
+}
+
 .who {
   padding: auto 134px;
   height: 1080px;
@@ -5,24 +11,29 @@
 }
 
 .who-p1 {
-  margin-top: 0;
+  margin: 0;
   color: white;
   font-size: 64px;
-}
-
-.who-p1:hover {
-  color: #00dcb4;
+  font-family: "NanumSquare_acR";
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .who-p2 {
   text-align: right;
-  margin-top: 0;
+  margin: 0;
   color: white;
   font-size: 64px;
+  font-family: "NanumSquare_acR";
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
+.who-p1:hover,
 .who-p2:hover {
   color: #00dcb4;
+  cursor: pointer;
+  transition: all ease 0.5s;
 }
 
 .who-div1 {
@@ -42,7 +53,16 @@
 .square-who {
   float: right;
   margin-left: 300px;
+  margin-bottom: 10px;
   width: 22px;
   padding-bottom: 22px;
   background-color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+#whodiv1:hover > #sqwho1,
+#whodiv2:hover > #sqwho2 {
+  background-color: #00dcb4;
+  transform: rotate(45deg);
+  transition: all ease 0.5s;
 }

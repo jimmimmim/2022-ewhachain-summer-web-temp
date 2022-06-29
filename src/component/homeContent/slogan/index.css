@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "NanumSquare_acR";
+  font-weight: 500;
+  src: url("../../../../public/fonts/NanumSquare_acR.ttf");
+}
+
 .slogan {
   padding-top: 231px;
   padding-left: 134px;
@@ -34,6 +40,8 @@
 .slogan-1 {
   margin-top: 22px !important;
   font-size: 64px;
+  font-family: "NanumSquare_acR";
+  font-weight: 800;
   background: -webkit-linear-gradient(
     rgba(0, 220, 180, 1),
     rgba(128, 0, 255, 1)

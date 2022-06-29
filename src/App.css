@@ -1,0 +1,26 @@
+::selection {
+    color:black;
+    background:#a5e9dc;
+}
+    
+::-moz-selection {
+    color:black;
+    background:#a5e9dc;
+}
+
+
+@font-face {
+    font-family: "NanumSquare_acL";
+    font-weight: 300;
+    src: url("../public/fonts/NanumSquare_acL.ttf");
+}
+
+@font-face {
+    font-family: "NanumSquare_acR";
+    font-weight: 500;
+    src: url("../public/fonts/NanumSquare_acR.ttf");
+}
+
+* {
+    font-family: "NanumSquare_acL";
+}

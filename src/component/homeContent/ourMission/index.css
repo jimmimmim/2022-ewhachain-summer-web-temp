@@ -8,6 +8,14 @@
 .p1 {
     margin-top: 22px !important;
     font-size: 64px;
+    font-family: "NanumSquare_acR";
+    font-weight: 800;
+}
+
+.p2 {
+    font-size: 40px;
+    color: rgba(0, 220, 180, 1);
+    font-weight: 600;
 }
 
 .p3 {
@@ -15,11 +23,6 @@
     white-space: pre-wrap;
     line-height: 200%;
     font-weight: 400;
-}
-
-.p2 {
-    font-size: 40px;
-    color: rgba(0, 220, 180, 1);
 }
 
 .square-ourMission {

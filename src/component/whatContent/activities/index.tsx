@@ -4,11 +4,11 @@ import './index.css';
 function Activities() {
     return (
       <div className='activities'>
-        <h1>Activities</h1>
+        <h1 className='slogan_title'>Activities</h1>
         <div className='wrapper'>
           <div className='containter'>
-            <div className='flex-1of2'>
-              <div className='rect-cont'>
+            <div className='grid'>
+              <div className='rect-cont' id='rect1of6'>
                 <img className='rect-icon' alt="webinar" src="webinar.png"/>
                 <div className='rectangle'>
                   <div className='act'>
@@ -21,11 +21,11 @@ function Activities() {
                   </div>
                 </div>
               </div>
-              <div className='rect-cont'>
-                <img className='rect-icon' alt="webinar" src="webinar.png"/>
+              <div className='rect-cont' id='rect2of6'>
+                <img className='rect-icon' alt="webinar" src="network.png"/>
                 <div className='rectangle'>
                 <div className='act'>
-                국내 대학 & 기업과의 네트워킹
+                국내 대학 & 기업과의<br/>네트워킹
                   </div>
                   <div className='act-detail'>
                   이화체인은 블록체인 대학 연합회 소속으로 블록체인 정책 대담회에서 의견을 제시했습니다.<br/><br/> 
@@ -37,11 +37,11 @@ DSRV, 한화 드림플러스 등의 국내 여러 기업들과의 MOU 및 실무
                   </div>
                 </div>
               </div>
-              <div className='rect-cont'>
-                <img className='rect-icon' alt="webinar" src="webinar.png"/>
+              <div className='rect-cont' id='rect3of6'>
+                <img className='rect-icon' alt="webinar" src="presentation.png"/>
                 <div className='rectangle'>
                 <div className='act'>
-                각종 해커톤 & 공모전 참가
+                각종 해커톤 & 공모전 참가<br/>
                   </div>
                   <div className='act-detail'>
                   학기 내 개발세션 커리큘럼을 통해 각종 해커톤에 참여합니다. 학회원들 간의 자유로운 팀 구성이 가능해 자율적으로 참가하기도 합니다. <br/><br/>
@@ -51,9 +51,9 @@ DSRV, 한화 드림플러스 등의 국내 여러 기업들과의 MOU 및 실무
                 </div>
               </div>
             </div>
-            <div className='flex-2of2'>
-            <div className='rect-cont'>
-                <img className='rect-icon' alt="webinar" src="webinar.png"/>
+            <div className='grid'>
+            <div className='rect-cont' id='rect4of6'>
+                <img className='rect-icon' alt="webinar" src="seminar.png"/>
                 <div className='rectangle'>
                 <div className='act'>
                     블록체인 업계<br/>
@@ -68,11 +68,11 @@ DSRV, 한화 드림플러스 등의 국내 여러 기업들과의 MOU 및 실무
                   </div>
                 </div>
               </div>
-              <div className='rect-cont'>
-                <img className='rect-icon' alt="webinar" src="webinar.png"/>
+              <div className='rect-cont' id='rect5of6'>
+                <img className='rect-icon' alt="webinar" src="chain.png"/>
                 <div className='rectangle'>
                 <div className='act'>
-                    블록체인 코어 개발
+                    블록체인 코어 개발<br/>  
                   </div>
                   <div className='act-detail'>
                   코어 스터디로 시작하여 직접 학회 내 자체 코어 개발을 진행하고 있습니다. <br/><br/>
@@ -81,8 +81,8 @@ DSRV, 한화 드림플러스 등의 국내 여러 기업들과의 MOU 및 실무
                   </div>
                 </div>
               </div>
-              <div className='rect-cont'>
-                <img className='rect-icon' alt="webinar" src="webinar.png"/>
+              <div className='rect-cont' id='rect6of6'>
+                <img className='rect-icon' alt="webinar" src="project.png"/>
                 <div className='rectangle'>
                 <div className='act'>
                     TF 구성을 통한<br/>다양한 프로젝트 진행

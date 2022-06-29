@@ -3,7 +3,7 @@ html {
     color: white;
 }
 
-.wrapper {
+.wrapper-circle {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,6 +31,21 @@ html {
     line-height: 566px;
 }
 
+#circle-1of3 {
+    display: block;
+}
+
+#circle-2of3 {
+    display: block;
+    margin-left: 30px;
+}
+
+#circle-3of3 {
+    display: inline-block;
+    margin-top: -50px;
+    margin-bottom: 200px;
+}
+
 .session {
     max-height: 100px;
     margin-top: 100px;
@@ -48,9 +63,9 @@ html {
     margin-top: 50px;
     margin-left: 65px;
 
-    font-size: 23px;
+    font-size: 27px;
     text-align: center;
-    line-height: 38.41px;
+    line-height: 50px;
 }
 
 .horizontal-line {
