@@ -1,11 +1,12 @@
 import React from 'react';
 import './index.css';
-import Nav from '../nav'
-import Footer from '../footer'
+import Nav from '../nav';
+import Footer from '../footer';
 function Activities() {
     return (
-      
       <div className='activities'>
+              <Nav/>
+
                 <div className='curriculum'>
         <div>
                 <h1 className='slogan_title'>Curriculum</h1>

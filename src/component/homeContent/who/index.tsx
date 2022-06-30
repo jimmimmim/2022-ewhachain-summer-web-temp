@@ -1,7 +1,7 @@
 import React from 'react';
 import './index.css';
-import About from "../../pages/About"
-import { BrowserRouter, Route, Link } from 'react-router-dom';
+import About from "../about"
+import { Link } from 'react-router-dom';
 function Who() {
   
     return (

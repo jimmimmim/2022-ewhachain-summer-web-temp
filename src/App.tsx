@@ -1,15 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import Nav from './component/nav';
-import Slogan from './component/homeContent/slogan';
-import OurMission from './component/homeContent/ourMission';
-import Who from './component/homeContent/who';
-import OurExcecutives from './component/homeContent/ourExecutives';
+// import logo from './logo.svg';
+// import Nav from './component/nav';
+// import Slogan from './component/homeContent/slogan';
+// import OurMission from './component/homeContent/ourMission';
+// import Who from './component/homeContent/who';
+// import OurExcecutives from './component/homeContent/ourExecutives';
+// import Footer from './component/footer';
 import Activities from 'component/activities';
-import Footer from './component/footer';
-import { BrowserRouter, Route,Routes, useNavigate,Outlet } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import Slogan_tab from 'component/homeContent/slogan_tab';
+import About from 'component/homeContent/about';
 import Home from 'component/Home';
 function App() {
   
@@ -19,6 +20,7 @@ function App() {
           <Route path='/' element={<Home/>}/>
           <Route path='/activities' element={<Activities/>}/>
           <Route path='/slogan_tab' element={<Slogan_tab/>}/>
+          <Route path='/about' element={<About/>}/>
           </Routes>
       </div>
 
