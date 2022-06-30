@@ -92,6 +92,9 @@
     .who-div1 {
         margin-bottom: 200px;
     }
+    .who {
+        height: 600px;
+    }
 }
 
 @media all and (min-width: 768px) {
