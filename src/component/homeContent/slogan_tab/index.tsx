@@ -1,8 +1,12 @@
 import React from 'react';
 import './index.css';
+import Nav from '../../nav';
+import Footer from '../../footer';
 
 function Slogan_tab() {
     return (
+      <div>
+      <Nav/>
       <div className='slogan_tab'>
         <p className='slogan_title'>SLOGAN</p>
         <div className='slogan_flex'>
@@ -32,6 +36,9 @@ function Slogan_tab() {
           <br/>
           <button onClick={() => window.open('https://drive.google.com/file/d/1Zk-anV_7sw30PcZ1NeuPBv9kZSZDCOW1/view', '_blank')}>소개집 보러가기</button>
         </div>
+        <Footer/>  
+      </div>
+      
       </div>
     );
   }

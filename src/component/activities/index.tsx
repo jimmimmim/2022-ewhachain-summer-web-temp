@@ -1,6 +1,7 @@
 import React from 'react';
 import './index.css';
-
+import Nav from '../nav'
+import Footer from '../footer'
 function Activities() {
     return (
       
@@ -145,7 +146,6 @@ DSRV, 한화 드림플러스 등의 국내 여러 기업들과의 MOU 및 실무
             </div>
           </div>
         </div>
-
       </div>
     );
   }
