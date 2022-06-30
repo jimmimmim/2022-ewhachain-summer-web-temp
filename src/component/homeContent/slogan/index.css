@@ -4,6 +4,10 @@
     src: url("../../../../public/fonts/NanumSquare_acR.ttf");
 }
 
+.right video {
+    margin-top: -100px;
+}
+
 .slogan {
     padding-top: 231px;
     padding-left: 134px;
@@ -29,17 +33,28 @@
 
 .slogan button {
     font-size: 24px;
-    width: 188px;
+    width: 200px;
+    text-align: center;
+    justify-content: center;
     height: 63px;
     color: rgba(0, 220, 180, 1);
-    border-radius: 20px;
-    border-color: rgba(0, 220, 180, 1);
+    border-radius: 40px;
+    border: 1px solid rgba(0, 220, 180, 1);
     background-color: transparent;
+    cursor: pointer;
+}
+
+.slogan button:hover {
+    color: black;
+    font-weight: 800;
+    background: linear-gradient(to right, rgba(0, 220, 180, 1), rgba(128, 0, 255, 1));
+    border: transparent;
+    transition: all ease-in-out 0.3s;
 }
 
 .slogan-1 {
     margin-top: 22px !important;
-    font-size: 64px;
+    font-size: 60px;
     font-family: "NanumSquare_acR";
     font-weight: 800;
     background: -webkit-linear-gradient( rgba(0, 220, 180, 1), rgba(128, 0, 255, 1)) !important;
@@ -48,8 +63,9 @@
 }
 
 .slogan-2 {
-    font-size: 32px;
+    font-size: 30px;
     font-weight: 100;
+    letter-spacing: 1px;
     padding-top: 20px;
     padding-bottom: 150px;
 }
@@ -76,7 +92,7 @@
     }
     .slogan button {
         font-size: 15px;
-        width: 50px;
+        width: 120px;
         height: 30px;
     }
     .slogan-1 {

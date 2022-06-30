@@ -19,6 +19,17 @@
     color: white;
 }
 
+.footer-txt h1 {
+    font-family: 'NanumSquare_acR';
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.footer-txt h3 {
+    font-family: 'NanumSquare_acR';
+    letter-spacing: 1px;
+}
+
 .footer-img {
     display: flex;
     flex-direction: row;

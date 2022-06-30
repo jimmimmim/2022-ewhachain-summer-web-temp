@@ -74,26 +74,26 @@
 @media all and (max-width: 768px) {
     /*브라우저 창 width가 768px보다 작아지는 순간부터 적용 모바일 */
     .who-p1 {
-        margin-top: 10px;
-        font-size: 30px;
+      margin-top: 10px;
+      font-size: 30px;
     }
     .who-p2 {
-        margin-top: 10px;
-        font-size: 30px;
+      margin-top: 10px;
+      font-size: 30px;
     }
     .square-who {
-        width: 10px;
-        padding-bottom: 10px;
+      width: 10px;
+      padding-bottom: 10px;
     }
     .square-who {
-        margin: auto;
-        float: none;
+      margin: auto;
+      float: none;
     }
     .who-div1 {
-        margin-bottom: 200px;
+      margin-bottom: 200px;
     }
     .who {
-        height: 600px;
+      height: 600px;
     }
 }
 

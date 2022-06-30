@@ -16,11 +16,11 @@ function Slogan() {
           <div className='right'>
             <video
               src="/sampleVideo.mp4"
-              width="600"
-              height="350"
+              width="450"
+              height="300"
               loop autoPlay
               >
-              </video>
+            </video>
           </div>
         </div>
       </div>
