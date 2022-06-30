@@ -1,20 +1,22 @@
 import React from 'react';
 import './index.css';
-import {Link} from "react-router-dom"
 import About from "../../pages/About"
-
+import { BrowserRouter, Route, Link } from 'react-router-dom';
 function Who() {
+  
     return (
       <div className='who'>
         <div className='who-div1' id='whodiv1'>
           <div className='square-who' id='sqwho1'></div>
-          <a href="#;">
+           <Link to='./slogan_tab'>
             <p className='who-p1'>who we are</p>
-          </a>
+            </Link>
         </div>
         <div className='who-div2' id='whodiv2'>
           <div className='square-who' id='sqwho2'></div>
+          <Link to='./activities'>
           <p className='who-p2'>what we do</p>
+          </Link>
         </div>
       </div>
     );
