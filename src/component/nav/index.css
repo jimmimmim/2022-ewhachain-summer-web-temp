@@ -65,14 +65,14 @@
   width: 10px;
   background-color: white;
 
-  transition: all ease 1s;
+  transition: all ease-in-out 1s;
 }
 
 #btn1:hover,
 #btn2:hover,
 #btn3:hover {
   cursor: pointer;
-  transition: all ease 0.3s;
+  transition: all ease-in-out 0.3s;
 }
 
 

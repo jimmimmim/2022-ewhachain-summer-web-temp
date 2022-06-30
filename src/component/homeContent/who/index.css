@@ -33,7 +33,7 @@
 .who-p2:hover {
   color: #00dcb4;
   cursor: pointer;
-  transition: all ease 0.5s;
+  transition: all ease-in-out 0.5s;
 }
 
 .who-div1 {
@@ -64,5 +64,5 @@
 #whodiv2:hover > #sqwho2 {
   background-color: #00dcb4;
   transform: rotate(45deg);
-  transition: all ease 0.5s;
+  transition: all ease-in-out 0.5s;
 }
