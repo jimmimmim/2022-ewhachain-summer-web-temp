@@ -6,11 +6,11 @@ function Activities() {
     return (
       <div className='activities'>
               <Nav/>
-
                 <div className='curriculum'>
-        <div>
+            <div>
                 <h1 className='slogan_title'>Curriculum</h1>
             </div>
+
             <div className='wrapper-circle'>
                 <div className='circle' id='circle-1of3'>
                     <div className='session'>
@@ -50,9 +50,8 @@ function Activities() {
         </div>
         <h1 className='slogan_title'>Activities</h1>
         <div className='wrapper'>
-          <div className='containter'>
-            <div className='grid'>
-              <div className='rect-cont' id='rect1of6'>
+          <div className='rect_part1'>
+          <div className='rect-cont' id='rect1of6'>
                 <img className='rect-icon' alt="webinar" src="webinar.png"/>
                 <div className='rectangle'>
                   <div className='act'>
@@ -94,9 +93,9 @@ DSRV, 한화 드림플러스 등의 국내 여러 기업들과의 MOU 및 실무
                   </div>
                 </div>
               </div>
-            </div>
-            <div className='grid'>
-            <div className='rect-cont' id='rect4of6'>
+              </div>
+              <div className='rect_part2'>
+              <div className='rect-cont' id='rect4of6'>
                 <img className='rect-icon' alt="webinar" src="seminar.png"/>
                 <div className='rectangle'>
                 <div className='act'>
@@ -143,11 +142,13 @@ DSRV, 한화 드림플러스 등의 국내 여러 기업들과의 MOU 및 실무
 <br/>현재까지는 위와 같은 TF가 구성되어 활동한 바가 있습니다. 
                   </div>
                 </div>
-              </div>
-            </div>
           </div>
+              
+              </div>
+              </div>
+
+          <Footer/>
         </div>
-      </div>
     );
   }
   
