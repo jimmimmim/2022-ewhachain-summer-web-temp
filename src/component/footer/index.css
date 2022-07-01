@@ -82,3 +82,17 @@ a:active {
 @media all and (min-width: 1024px) {
     /*브라우저 창 width가 1024px보다 커지는 순간부터 적용 데스크탑 */
 }
+
+@media all and (max-width: 470px) {
+    /*브라우저 창 width가 768px보다 작아지는 순간부터 적용 모바일 */
+    .footer {
+        flex-direction: column;
+        height: 90px;
+    }
+    .footer-txt h1 {
+        text-align: center;
+    }
+    .footer-img {
+        margin-bottom: 20px;
+    }
+}

@@ -63,7 +63,9 @@ function Nav() {
     </div>
     <div ref={(e:any) => (navRefs.current = e)} className="nav-mobile-menu">
       <ul>
+      <Link to='/about'>
         <li>ABOUT US</li>
+      </Link>
       </ul>
       <ul>
         <li>RECRUITING</li>
