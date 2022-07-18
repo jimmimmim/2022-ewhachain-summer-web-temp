@@ -48,13 +48,13 @@ function Nav() {
         </div>
         <div className="block">
           <Link to='/about'>
-          <button id="btn2" >RECRUITING</button>
+          <button id="btn2" onClick={() => alert('모집 마감')}>RECRUITING</button>
           <div className="dot"></div>
           </Link>
         </div>
         <div className="block">
           <Link to='/about'>
-          <button id="btn3" >MEMBERS</button>
+          <button id="btn3"  >MEMBERS</button>
           <div className="dot"></div>
           </Link>
         </div>
@@ -68,7 +68,7 @@ function Nav() {
       </Link>
       </ul>
       <ul>
-        <li>RECRUITING</li>
+        <li onClick={() => alert('모집 마감')}>RECRUITING</li>
       </ul>
       <ul>
         <li>MEMBERS</li>
